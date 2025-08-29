@@ -40,7 +40,7 @@
 
       <!-- navigation -->
       <div class="relative text-gray-600">
-        <div class="container flex justify-between px-12 py-8 mx-auto lg:px-12">
+        <div class="container flex justify-between px-12 py-8 mx-auto lg:px-24">
           <!-- left header -->
           <div class="flex items-center space-x-4">
             <a href="#" class="text-2xl font-bold text-teal-800"
@@ -73,7 +73,10 @@
       </div>
       <!-- hero section ===============-->
       <div class="relative">
-        <div class="container px-6 py-24 mx-auto text-center lg:px-64">
+        <!-- purple bar -->
+        <div class="absolute bottom-0 inset-x-0 h-64 bg-purple-900"></div>
+
+        <div class="container px-6 py-24 mx-auto text-center lg:px-24">
           <!-- heading -->
           <h1 class="mb-4 text-5xl lg:text-6xl font-extrabold">
             <span
@@ -100,13 +103,13 @@
           <!-- teaser Image -->
           <div class="relative">
             <img
-              src="https://images.unsplash.com/photo-1756244817550-e8275f5fd26e"
+              src="./src/image.png"
               alt="teaser Image"
-              class="rounded-lg shadow-2xl border-4 border-gray-400"
+              class="rounded-lg shadow-2xl border-4 border-teal-400"
             />
             <!-- teaser image info box -->
             <div
-              class="lg:absolute top-0 right-0 lg:transform lg:translate-x-4 lg:-translate-y-4 text-left py-4 px-8 mt-8 lg:mt-0 rounded shadow-lg text-teal-950 bg-gray-100 border-t-4 border-gray-500"
+              class="lg:absolute top-0 right-0 lg:transform lg:translate-x-4 lg:-translate-y-4 text-left py-4 px-8 mt-8 lg:mt-0 rounded shadow-lg text-teal-950 bg-gray-100 border-t-4 border-teal-600"
             >
               <p>
                 <strong class="font-bold"
@@ -120,6 +123,86 @@
       </div>
     </div>
     <!-- overview section ===============-->
+    <div class="relative bg-purple-900 lg:pt-12 pb-24">
+      <!-- gray bar -->
+      <div class="absolute bottom-0 inset-x-0 h-64 bg-gray-200"></div>
+      <div class="relative container mx-auto px-6 lg:px-24">
+        <h2 class="mb-10 text-4xl lg:text-6xl font-bold text-purple-200">
+          Writing CSS is tough stuff !
+        </h2>
+        <div class="lg:flex lg:space-x-16 space-y-8 lg:space-y-0">
+          <!-- left column -->
+          <div
+            class="lg:w-2/3 bg-purple-100 p-8 lg:p-16 rounded shadow-2xl text-gray-800 text-lg space-y-8 leading-relaxed"
+          >
+            <p>
+              CSS gives you complete control over how a website looks and feels,
+              but at first, it often feels like trying to solve a puzzle where
+              the pieces keep changing shape. Every new property you learn opens
+              up another door, and
+              <strong class="font-bold text-teal-600"
+                >sometimes that door leads to more confusion than
+                clarity</strong
+              >.
+            </p>
+            <p>
+              From flexbox to grid, and from selectors to pseudo-elements, the
+              list of concepts seems endless. Beginners can
+              <a href="#" class="text-blue-400 hover:underline">feel</a> lost in
+              the sea of rules, syntax, and exceptions, wondering how
+              <code
+                class="inline-block text-xs px-1 rounded bg-gray-200 text-teal-500 font-mono"
+                >professionals</code
+              >
+              make it look so effortless.
+            </p>
+            <p>
+              But once you begin to see the patterns, the mystery fades. You
+              realize CSS is not just about code—<strong class="font-bold"
+                >it’s about logic and creativity working together</strong
+              >. Suddenly, layouts make sense, spacing becomes intentional, and
+              styling transforms into a form of expression.
+            </p>
+            <p class="relative text-3xl italic">
+              <span
+                class="absolute top-0 left-0 transform -translate-x-5 -translate-y-5 text-purple-600 text-6xl scale-150 opacity-50"
+                >"</span
+              >
+              Recipes tell you what to do. Creativity begins when you know which
+              rules you can bend.
+              <span
+                class="absolute transform text-purple-600 text-6xl scale-150 opacity-50"
+                >"</span
+              >
+            </p>
+            <p>
+              In the end, writing CSS isn’t about memorizing every property by
+              heart. It’s about developing an eye for structure and design,
+              learning how to bring balance and harmony to the page so that it
+              feels natural and engaging to the user.
+            </p>
+          </div>
+          <!-- right column -->
+          <div class="flex-grow space-y-4 text-lg italic font-bold">
+            <div class="p-10 rounded-lg bg-purple-700 text-purple-200">
+              What utility class should I use here?
+            </div>
+            <div class="p-10 rounded-lg bg-purple-700 text-purple-200">
+              Why does my layout keep breaking?
+            </div>
+            <div class="p-10 rounded-lg bg-purple-700 text-purple-200">
+              Is my design too simple or clean enough?
+            </div>
+            <div class="p-10 rounded-lg bg-purple-700 text-purple-200">
+              Am I overthinking CSS?
+            </div>
+            <div class="p-10 rounded-lg bg-purple-700 text-purple-200">
+              Will I ever truly master styling?
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- about me section ===============-->
     <!-- what you learn ===============-->
     <!-- what you built ===============-->
